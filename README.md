@@ -46,7 +46,7 @@ Usage
 `ac-inf-ruby` should now automatically be enabled in new `inf-ruby` sessions.
 
 Simply trigger auto-completion, and completion candidates supplied by
-nrepl should be displayed, with the "r" symbol on the right hand side of the
+`inf-ruby` should be displayed, with the "r" symbol on the right hand side of the
 completion pop-up.
 
 [marmalade]: http://marmalade-repo.org
