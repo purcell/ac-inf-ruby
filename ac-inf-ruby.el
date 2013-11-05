@@ -43,17 +43,14 @@
 
 (defun ac-inf-ruby-candidates ()
   "Return completion candidates for `ac-prefix'."
-  (message "complete %s" ac-prefix)
   (inf-ruby-completions ac-prefix))
 
 (defun ac-inf-ruby-prefix ()
   "Return starting position of completion prefix."
-  (message "start %s" (car (inf-ruby-completion-bounds-of-expr-at-point)))
   (car (inf-ruby-completion-bounds-of-expr-at-point)))
 
 (defun ac-inf-ruby-available ()
   "Return t iff inf-ruby completions are available."
-  (message "available? %s" (eq 'inf-ruby-mode major-mode))
   (eq 'inf-ruby-mode major-mode))
 
 (defvar ac-source-inf-ruby
