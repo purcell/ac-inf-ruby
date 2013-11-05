@@ -63,6 +63,7 @@
     (prefix . ac-inf-ruby-prefix))
   "Auto-complete source for `inf-ruby-mode'.")
 
+;;;###autoload
 (defun ac-inf-ruby-enable ()
   "Add `ac-source-inf-ruby' to `ac-sources' for this buffer."
   (make-local-variable 'ac-sources)
