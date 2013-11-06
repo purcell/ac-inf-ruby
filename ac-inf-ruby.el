@@ -47,7 +47,8 @@
 
 (defun ac-inf-ruby-prefix ()
   "Return starting position of completion prefix."
-  (car (inf-ruby-completion-bounds-of-expr-at-point)))
+  (and inf-ruby-at-top-level-prompt-p
+       (car (inf-ruby-completion-bounds-of-expr-at-point))))
 
 (defun ac-inf-ruby-available ()
   "Return t iff inf-ruby completions are available."
