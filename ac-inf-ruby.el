@@ -51,7 +51,7 @@
        (car (inf-ruby-completion-bounds-of-expr-at-point))))
 
 (defun ac-inf-ruby-available ()
-  "Return t iff inf-ruby completions are available."
+  "Return t if inf-ruby completions are available."
   (eq 'inf-ruby-mode major-mode))
 
 (defvar ac-source-inf-ruby
