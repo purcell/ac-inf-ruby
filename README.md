@@ -50,7 +50,7 @@ Simply trigger auto-completion, and completion candidates supplied by
 completion pop-up.
 
 [marmalade]: http://marmalade-repo.org
-[melpa]: http://melpa.milkbox.net
+[melpa]: http://melpa.org
 
 Acknowledgements
 ================
