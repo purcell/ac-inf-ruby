@@ -1,26 +1,26 @@
+[![Melpa Status](http://melpa.org/packages/ac-inf-ruby-badge.svg)](http://melpa.org/#/ac-inf-ruby)
+[![Melpa Stable Status](http://stable.melpa.org/packages/ac-inf-ruby-badge.svg)](http://stable.melpa.org/#/ac-inf-ruby)
+
 inf-ruby completion source for Emacs auto-complete package
 ==========================================================
 
 This plugin provides an [auto-complete](http://cx4a.org/software/auto-complete/)
 completion source for use in [inf-ruby](https://github.com/nonsequitur/inf-ruby) buffers.
 
-**Latest stable version**: see the [latest numbered tag](https://github.com/purcell/ac-inf-ruby/tags), which
-will also be the latest version available via Marmalade.
-
 Installation
 =============
 
 First, ensure `auto-complete` and `inf-ruby` are installed: I recommend
-using packages from [Marmalade][marmalade] or [Melpa][melpa].
+using packages from [MELPA][melpa].
 
 You'll need both `auto-complete` and `inf-ruby` to be enabled and
 working, so please consult the corresponding documentation is you have
 any trouble with this.
 
 Next, install `ac-inf-rub`. If you choose not to use the convenient
-package in [Melpa][melpa] and [Marmalade][marmalade], you'll need to
-add the directory containing `ac-inf-ruby.el` to your `load-path`, and
-then `(require 'ac-inf-ruby)`.
+package in [MELPA][melpa], you'll need to add the directory containing
+`ac-inf-ruby.el` to your `load-path`, and then `(require
+'ac-inf-ruby)`.
 
 `ac-inf-ruby` provides an `inf-ruby`-specific completion source,
 so `auto-complete` needs to be told to use them when `inf-ruby-mode` is
@@ -49,7 +49,6 @@ Simply trigger auto-completion, and completion candidates supplied by
 `inf-ruby` should be displayed, with the "r" symbol on the right hand side of the
 completion pop-up.
 
-[marmalade]: http://marmalade-repo.org
 [melpa]: http://melpa.org
 
 Acknowledgements
