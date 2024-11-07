@@ -58,10 +58,8 @@ Acknowledgements
 
 <hr>
 
-Author links:
+[💝 Support this project and my other Open Source work via Patreon](https://www.patreon.com/sanityinc)
 
-[![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)
+[💼 LinkedIn profile](https://uk.linkedin.com/in/stevepurcell)
 
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
-
-[Steve Purcell's blog](http://www.sanityinc.com/) // [@sanityinc on Twitter](https://twitter.com/sanityinc)
+[✍ sanityinc.com](http://www.sanityinc.com/)
